@@ -1,12 +1,12 @@
 import React from "react";
-import State from "./States/State";
-import "./App.css";
-const App = () => {
+import CitySelector from "./components/CitySelector";
+
+function App() {
   return (
-    <div className='container'>
-      <State />
+    <div>
+      <CitySelector />
     </div>
   );
-};
+}
 
 export default App;
